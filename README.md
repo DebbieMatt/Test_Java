@@ -5,10 +5,9 @@
 ![GitHub language count](https://img.shields.io/static/v1?label=Java&message=framework&color=blue&style=for-the-badge&logo=Java)
 ![Status](https://img.shields.io/static/v1?label=STATUS&message=ANDAMENTO&color=GREEN&style=for-the-badge)
 
-Um Data Warehouse desenvolvido no Google Colab com integração ao SQLite. 
-Para criar dimensões em Python, foi utilizado técnicas de: Web Scraping do banco de dados do IBGE e Engenharia de Dados, com atualização retroativa.
+### [Projeto 01](https://github.com/DebbieMatt/Test_Java/blob/adacdf77e38c020315cf1a4160e6a3b86bdfb939/src/Main.java) 
 
-## Execução
+Cálculos, Comparativo de tabela verdade AND e OR, estrutura condicional, teste comparando valores, booleano, etc.
 
 ## 📫 Contribuindo para a manutenção
 
