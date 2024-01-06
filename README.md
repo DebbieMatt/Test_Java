@@ -5,9 +5,14 @@
 ![GitHub language count](https://img.shields.io/static/v1?label=Java&message=framework&color=blue&style=for-the-badge&logo=Java)
 ![Status](https://img.shields.io/static/v1?label=STATUS&message=ANDAMENTO&color=GREEN&style=for-the-badge)
 
-### [Projeto 01](https://github.com/DebbieMatt/Test_Java/blob/adacdf77e38c020315cf1a4160e6a3b86bdfb939/src/Main.java) 
+### [Conteúdo Introdutório](https://github.com/DebbieMatt/Test_Java/blob/3bfa63919283cadbbd06b041ce21da591e1cbde0/INTRO/Main.java) 
 
 Cálculos, Comparativo de tabela verdade AND e OR, estrutura condicional, teste comparando valores, booleano, etc.
+
+### [Projeto 00](https://github.com/DebbieMatt/Test_Java/blob/3bfa63919283cadbbd06b041ce21da591e1cbde0/ATV_00/Main.java)
+
+### [Projeto 01](https://github.com/DebbieMatt/Test_Java/blob/3bfa63919283cadbbd06b041ce21da591e1cbde0/ATV_01/Main.java)
+Ordenação de Array em ordem crescente e descrescente.
 
 ## 📫 Contribuindo para a manutenção
 
