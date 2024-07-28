@@ -45,7 +45,7 @@ public class Main {
         int nota;
         String graduação;
         
-        System.out.printf("Informe a sua nota de redação: ");
+        System.out.println("Informe a sua nota de redação: ");
         nota = ler.nextInt(); // entrada de dados (lendo um valor inteiro)
 
         if (nota >= 950) {
