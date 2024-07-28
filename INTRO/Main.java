@@ -38,37 +38,45 @@ public class Main {
         /* String mensagem = fim_de_semana ? "É fim de semana" : "Não é fim de semana";
         System.out.println(fim_de_semana); // Operador Ternário. */
 
-        int nota = 1000 ;
+        import java.util.Scanner; // importando a classe Scanner
+        
+        Scanner ler = new Scanner(System.in); // instanciando e criando um objeto Scanner
+        
+        int nota;
         String graduação;
+        
+        System.out.printf("Informe a sua nota de redação: ");
+        nota = ler.nextInt(); // entrada de dados (lendo um valor inteiro)
 
         if (nota >= 950) {
             graduação = "medicina";
-        }
-        else if (nota < 900 && nota >= 800){
-            graduação ="psicologia";
-        }
-        else if (nota < 800 && nota >= 700) {
-            graduação ="engenharia";
-        }
-        else if (nota < 700 && nota >= 600) {
-            graduação ="biologia";
-        }
-        else {
-            graduação ="educação fisica";
+        } else if (nota < 900 && nota >= 800) {
+            graduação = "psicologia";
+        } else if (nota < 800 && nota >= 700) {
+            graduação = "engenharia";
+        } else if (nota < 700 && nota >= 600) {
+            graduação = "biologia";
+        } else {
+            graduação = "educação física";
         }
 
-        switch (graduação){
+        switch (graduação) {
             case "medicina":
-            case "psicologia", "engenharia", "biologia":
-                System.out.println("aluno aprovado em: " + graduação);
+                System.out.println("Aluno aprovado em: " + graduação);
+                break;
+            case "psicologia":
+                System.out.println("Aluno aprovado em: " + graduação);
+                break;
+            case "engenharia":
+                System.out.println("Aluno aprovado em: " + graduação);
+                break;
+            case "biologia":
+                System.out.println("Aluno aprovado em: " + graduação);
                 break;
 
             default:
-                System.out.println("educação fisica");
+                System.out.println("Educação física");
         }
-
     }
 }
-
-
 
